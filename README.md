@@ -16,7 +16,7 @@ The order service uses the phone catalog service to validate a given order and c
 - The microservices are meant to use Eureka Server, so for them to work Eureka Server must be up and running. In order to avoid this Step, eureka dependencies and annotations must be removed.
 - The microservices are meant to communicate to each other using zuul gateway server. In order to avoid this step, propertie zuul.url must be overwritten in orderService application.properties
 - Both microservices come with Swagger integration. Using zuul and eureka, swagger can be accessed through respective address:
-    - http://localhost:8008/order-service/swagger-ui.html (order service)
+    - http://localhost:8080/order-service/swagger-ui.html (order service)
     - http://localhost:8080/phonecatalog/swagger-ui.html (phone catalog)
 
 # Integration Testing
