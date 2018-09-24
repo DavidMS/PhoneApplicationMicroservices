@@ -1,9 +1,6 @@
 [submodule "zuulGateway"]
 	path = zuulGateway
 	url = https://github.com/DavidMS/zuulGateway.git
-[submodule "phonecatalog"]
-	path = phonecatalog
-	url = https://github.com/DavidMS/phonecatalog.git
 [submodule "orderService"]
 	path = orderService
 	url = https://github.com/DavidMS/orderService.git
